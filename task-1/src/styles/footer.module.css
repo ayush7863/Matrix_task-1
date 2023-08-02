@@ -1,0 +1,8 @@
+#footer{
+    border:0px solid black;
+    height:70px;
+    position:relative;
+    z-index:999;
+    top:580px;
+    background: #f30050;
+}

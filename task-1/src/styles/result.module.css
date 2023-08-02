@@ -1,0 +1,69 @@
+#container {
+  border: 0px solid blue;
+  height: 100vh;
+  width: 86.1%;  
+  background-image: url("../icons/Rectangle 9398.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray 50%;
+  position: absolute;
+  left: 215px;
+  overflow-y: scroll;
+ 
+}
+ 
+
+#navbar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+  align-items: center;
+}
+#search {
+  padding-left:10px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 435px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    132deg,
+    rgba(124, 15, 53, 0.2) 0%,
+    rgba(88, 18, 102, 0.2) 100%
+  );
+  position: relative;
+}
+.menu_link {
+  border: 0px solid blue;
+  width: 156px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(131deg, #7c0f35 0%, #581266 100%);
+  text-align: center;
+}
+.menu_link > p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.search_icon {
+  color: white;
+  position: absolute;
+  left: 450px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
